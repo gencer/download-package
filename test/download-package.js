@@ -27,7 +27,7 @@ test('Download the latest version of an npm package', assert => {
         )
       } catch (err) {
         assert.fail(
-          `There's isn't a folder named ${packageName} in the destination`          
+          `There's isn't a folder named ${packageName} in the destination`
         )
       }
     })
