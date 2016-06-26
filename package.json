@@ -2,8 +2,9 @@
   "name": "download-package",
   "version": "0.1.0",
   "description": "Download a package from the npm registry into any folder",
-  "main": "src/index.js",
+  "main": "src/download-package.js",
   "scripts": {
+    "test": "tape 'test/**/*.js' | tap-spec"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/ttmarek/download-package/issues"
   },
-  "homepage": "https://github.com/ttmarek/download-package#readme"
+  "homepage": "https://github.com/ttmarek/download-package#readme",
+  "devDependencies": {
+    "rimraf": "^2.5.2",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "download": "^5.0.2",
+    "get-package-json": "^1.0.0",
+    "mz": "^2.4.0"
+  }
 }
