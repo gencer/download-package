@@ -1,0 +1,24 @@
+{
+  "name": "download-package",
+  "version": "0.1.0",
+  "description": "Download a package from the npm registry into any folder",
+  "main": "src/index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttmarek/download-package.git"
+  },
+  "keywords": [
+    "download",
+    "npm",
+    "package",
+    "folder"
+  ],
+  "author": "ttmarek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ttmarek/download-package/issues"
+  },
+  "homepage": "https://github.com/ttmarek/download-package#readme"
+}
