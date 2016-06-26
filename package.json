@@ -4,6 +4,7 @@
   "description": "Download a package from the npm registry into any folder",
   "main": "src/download-package.js",
   "scripts": {
+    "linter": "standard 'src/**/*.js' 'test/**/*.js' || true",
     "test": "tape 'test/**/*.js' | tap-spec"
   },
   "repository": {
@@ -24,6 +25,7 @@
   "homepage": "https://github.com/ttmarek/download-package#readme",
   "devDependencies": {
     "rimraf": "^2.5.2",
+    "standard": "^7.1.2",
     "tap-spec": "^4.1.1",
     "tape": "^4.6.0"
   },
